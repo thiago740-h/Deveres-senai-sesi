@@ -6,14 +6,14 @@
 table {
     width: 600px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(199, 231, 231);
+    background-color: rgb(138, 236, 243);
     border-collapse: collapse;
 
 }
 
 td {
-    border: 1px solid black;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(219, 255, 255);
 
 }
 
@@ -26,7 +26,7 @@ td:hover {
 
 th {
     border: 1px solid black;
-    background-color: rgb(#66C5E3);
+    background-color: rgb(#139fca);
     color: rgb(255, 255, 255);
     transition: 0.5s;
 }
@@ -34,7 +34,6 @@ th {
 thead {
     position: sticky;
     top: 0px;
-
 }
 
 .cabecalho {
@@ -50,5 +49,14 @@ thead {
 }
 
 .dod {
-    background-color: #c7e7f3;
+    background-color: #1d9ac7;
+}
+
+.cold {
+    background-color: #afafaf;
+    text-align: center;
+}
+
+.dad {
+    text-align: center;
 }
