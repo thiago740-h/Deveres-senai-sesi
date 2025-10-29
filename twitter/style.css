@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+   --corPrimaria : rgb(43, 89, 173);
+   --Branco : white;
+   --Preto : black;
+}
+
+body{
+    background-color: var(--Preto);
+}
+
+.ladoE{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
